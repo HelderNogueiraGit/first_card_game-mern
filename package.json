@@ -1,0 +1,23 @@
+{
+  "name": "first_card_game-mern",
+  "version": "1.0.0",
+  "description": "My First Card Game (TCG) using mern stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelderNogueiraGit/first_card_game-mern.git"
+  },
+  "author": "Helder Nogueira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HelderNogueiraGit/first_card_game-mern/issues"
+  },
+  "homepage": "https://github.com/HelderNogueiraGit/first_card_game-mern#readme",
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}
