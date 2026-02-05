@@ -1,10 +1,6 @@
 import { Container, Flex, Card } from "@radix-ui/themes";
-import React from "react";
-import { Header } from "../../core/components/Header";
-import { Text } from "@radix-ui/themes/dist/cjs/components/callout";
 import { MessagePanel } from "../../core/components/MessagePanel";
 import { Login } from "../../player/components/Login";
-import { Footer } from "../../core/components/Footer"
 import { Page } from "../../core/components/Page";
 
 export const MainPage = () => {

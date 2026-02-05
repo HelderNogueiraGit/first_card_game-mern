@@ -1,9 +1,10 @@
 import { Half2Icon, PersonIcon } from "@radix-ui/react-icons";
 import { Card, Flex } from "@radix-ui/themes";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Logo = () => {
-    return (<Flex align={"center"} justify={"center"}><Half2Icon color="green"/><header style={{paddingLeft: "12px"}}>Monster Gate</header></Flex>);
+    return (<Flex align={"center"} justify={"center"}><Half2Icon color="green"/><header style={{paddingLeft: "12px"}}><Link to={"/"}>Monster Gate</Link></header></Flex>);
 }
 
 
